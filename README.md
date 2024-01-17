@@ -21,6 +21,12 @@ CDK apps are composed of **stacks**. Stacks are logical groupings of cloud resou
     npm install -g aws-cdk
 ```
 
+- Prepare environment for CDK deployments:
+
+```
+    cdk bootstrap
+```
+
 ## Step 1: Start new CDK Project
 
 1. Create a new folder for your CDK project in your local environment and navigate to it from your terminal (e.g. `mkdir cdk-workshop; cd cdk-workshop`)
